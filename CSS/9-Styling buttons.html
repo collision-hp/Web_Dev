@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo selectors & button designing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap" rel="stylesheet">
+    
+    <style>
+        .container{
+            font-family: 'Bonheur Royale', cursive;
+            font-size: 20px;
+            border: 5px solid rgb(18, 29, 107);
+            background-color: lightblue;
+            padding:20px ;
+            margin: 20px;
+        }
+        .btn{
+            font-family: 'Bonheur Royale', cursive;
+            background: rgb(250, 162, 162);
+            padding: 6px;
+            border: none;
+            cursor: pointer;
+            font-size: 20px;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        #btm:hover{
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+        }
+        a{
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+        }
+        a:hover{
+            color:rgb(84, 213, 84);
+            background-color: rgb(255, 208, 0);
+            border: 2px solid black;
+        }
+        a:visited{
+            background-color: brown;
+        }
+        a:active{
+            background-color: blueviolet;
+        }
+    </style>
+</head>
+<body>
+    <div class="container" id="cont">
+        <h3>Heading</h3>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nisi exercitationem reprehenderit facilis mollitia modi accusamus voluptas vel a, aperiam laboriosam quae iusto. Mollitia, debitis numquam. Placeat vel vitae iste neque?</p>
+        <a href="https://google.com" class="btn">Read more</a>
+        <button class="btn" id="btm">Contact us</button>
+    </div>
+</body>
+</html>

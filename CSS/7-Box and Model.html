@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box model margin and Padding</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            text-align: center;
+            background-color: burlywood;
+            border: 10px solid rgb(100, 59, 5);
+            margin: 34px;
+            padding: 10px;
+            /* We can set margin/padding for top botton left right like this
+            padding-top: 20px; 
+            padding-right:230px; 
+            padding-botton: 40px;
+            padding-left:50px;*/
+            /* padding = top right bottom left; 
+            Padding can be written in ine step directly like this
+                   top right bottom left*/
+            padding:29px 40px 23px 40px ;
+            border-radius: 30px;
+            
+        }
+        body{
+            background-color: lightblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p><img src="https://qph.cf2.quoracdn.net/main-qimg-d424c463fabd68e11736d4a7f09a14ce-pjlq" alt="loading..." style="width: 450px;"></p>
+    <div class="container">
+        <h3>This is the branding</h3>
+        <p id="first">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus velit, dicta unde
+            dolorum magni facere magnam voluptatibus iure incidunt soluta eius ipsa hic? Dicta ut sed nobis incidunt
+            tenetur.</p>
+    </div>
+    <div class="container">
+        <h3>This is the branding</h3>
+        <p id="second">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus velit, dicta unde
+            dolorum magni facere magnam voluptatibus iure incidunt soluta eius ipsa hic? Dicta ut sed nobis incidunt
+            tenetur.</p>
+    </div>
+    <div class="container">
+        <h3>This is the branding</h3>
+        <p id="third">Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur delectus velit, dicta unde
+            dolorum magni facere magnam voluptatibus iure incidunt soluta eius ipsa hic? Dicta ut sed nobis incidunt
+            tenetur.</p>
+    </div>
+</body>
+</html>

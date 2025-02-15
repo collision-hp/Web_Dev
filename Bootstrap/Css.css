@@ -1,0 +1,50 @@
+/* .container{
+    border: 8px solid black;
+}
+.container-fluid{
+    border: 8px solid black;
+} */
+/* .row{
+    border: 5px solid red;
+}
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12{
+    border: 5px solid green;
+} */
+body{
+    background-color:gray ;
+}
+#header{
+    background-color: orange;
+    padding: 10px 0 10px 10px;
+    text-decoration: underline;
+}
+#menu{
+    background-color: rgb(206, 192, 220);
+    text-align: center;
+}
+
+#menu ul li{
+    display: inline;
+    padding: 20px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#content{
+    background-color: white;
+}
+#sidebar{
+    background-color: lightblue;
+}
+#sidebar li{
+    list-style: none;
+    padding: 10px;
+}
+#sidebar a{
+    text-decoration: none;
+}
+#footer{
+    background: orange;    
+}

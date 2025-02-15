@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function () {
+            $("#flip").click(function () {
+                $("#panel").slideDown("slow");
+            })
+            $("#panel").click(function () {
+                $("#flip").slideUp();
+            })
+            // $("#flip").click(function(){
+            //     $("#panel").slideToggle();
+            // })
+        })
+    </script>
+    <style>
+        .box {
+            cursor: pointer;
+            padding: 5px;
+            text-align: center;
+            background-color: rgb(138, 180, 147);
+            border: 1px solid black;
+        }
+
+        #panel {
+            padding: 50px;
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box" id="flip">Click to slide down panel...</div>
+    <div class="box" id="panel">
+        <ol>
+            <li>Koenigsegg Regera (2016–2022) 80 units – 0–100 km/h (0–62 mph) 2.8 sec. Top speed 410 km/h (255 mph)
+                (claimed)</li>
+            <li>Koenigsegg Jesko (2021–) 125 units planned (Buyers have the option to choose between the track-oriented
+                Jesko Attack or the speed-focused Jesko Absolut). Reported Absolut top speed is 500 km/h (310.7 mph)</li>
+            <li>Koenigsegg Gemera (2024–) 0–100 km/h (62 mph) 1.9 sec, $1.9 Million.[65] 300 units planned. </li>
+            <li>Koenigsegg CC850 (2024–) 50 units originally planned, later modified to 70 units – inspired by the
+                Koenigsegg CC8S design, and commemorating Christian von Koenigsegg's 50th birthday and 20 years since
+                the delivery of their first production vehicle (Koenigsegg CC8S). </li>
+        </ol>
+        Click me to slide up
+    </div>
+
+</body>
+
+</html>

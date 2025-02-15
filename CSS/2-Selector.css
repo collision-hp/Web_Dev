@@ -1,0 +1,21 @@
+/* For tags/element selector */
+p{
+    color: rgb(136, 3, 3);
+    border: 2px solid gray;
+}
+/* For id selector-used when we have to style a particular element*/
+#pBlue{
+    color: blue;
+}
+/* For class selector-used to style all the elements with similar properties*/
+.pElement{
+    color: rgb(229, 116, 135);
+}
+.pcElement{
+    color: black !important ;
+}
+/* For group selector*/
+footer, span{
+    background-color: aquamarine;
+}
+/* commenting out in css= */

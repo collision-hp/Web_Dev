@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        $(function(){
+            $(".p1").click(function(){
+                $(this).hide();
+            })
+        })
+        $(function(){
+            $(".p2").dblclick(function(){
+                $(this).hide();
+            })
+        })
+        $(function(){
+            $(".h1").mouseenter(function(){
+                alert("You have entered h1!!")
+            })
+        })
+        $(function(){
+            $(".h2").mousedown(function(){
+                alert("Bye!! Now leave h2")
+            })
+        })
+    </script>
+</head>
+
+<body>
+
+    <h3 class="h1" style="cursor:pointer">This is h1!</h3>
+    <h3 class="h2" style="cursor:pointer">This is h2!</h3>
+    <p class="p1" style="cursor:pointer">If you click on me, I will disappear.</p>
+    <p class="p2" style="cursor:pointer">Double click me away!</p>
+
+</body>
+
+</html>

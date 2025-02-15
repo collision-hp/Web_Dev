@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<!-- id-Identifier which are specified for particular elements and are unique (specified for single elements).
+    Inside redbg class we define the style and properties of the element and give the class to an element ,can be given to multiple elements-->
+<body>
+    <h3>Ids and classes</h3>
+    <div id="mainBox" class="redBg"></div>
+
+    <!-- Shortcut-> span.redBg is for class and span#mainSpan is for id-->
+    <span id="mainSpan"></span>
+    <span class="redBg"></span>
+
+    <!-- Multiple classes can be there and multiple elements can have one class but id is unique. -->
+    <div class="redBg blackBorder anotherClass"></div> <!--Shortcut- div.redBg.blackBorder.anotherClass-->
+
+    <!-- Emmet takes div tag as default-> writing .blackBackground-->
+    <div class="blackBackground"></div>
+
+    <!-- Creating Multiple elements using Emmet -->
+    <!-- span.myClass.myClass2.myClass3 + TAB -->
+    <span class="myClass myClass2 myClass3"></span>
+    
+    <!-- myClass myClass2 myClass3*3 + ENTER -->
+    <span class="myClass myClass2 myClass3">First</span>
+    <span class="myClass myClass2 myClass3">Second</span>
+    <span class="myClass myClass2 myClass3">Third</span>
+</body>
+
+</html>

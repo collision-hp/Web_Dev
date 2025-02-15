@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script>
+        // $(function(){
+        //     $("button").click(function(){
+        //         $("p").hide();
+        //     })
+        // })
+
+        $(function(){
+            $("button").click(function(){
+                $("#para3").hide();
+            })
+        })
+
+        $(function(){
+            $("button").click(function(){
+                $(".para2").toggle();
+            })
+        })
+    </script>
+</head>
+
+<body>
+    <h2>This is a heading</h2>
+
+    <p style="cursor: pointer">This is paragraph 1 for general selectors.</p>
+    <p class="para2">This is another paragraph 2 for class selectors.</p>
+    <p id="para3" >This is paragraph 3 for id selectors.</p>
+
+    <button>Click me to hide specified paragraph</button>
+</body>
+
+</html>
